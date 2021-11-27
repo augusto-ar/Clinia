@@ -1,0 +1,17 @@
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Teste.exe.config
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Teste.exe
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Teste.pdb
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Data.dll
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Model.dll
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\EntityFramework.dll
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Data.pdb
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Data.dll.config
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\Clinica.Model.pdb
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\EntityFramework.xml
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\obj\Debug\Clinica.Teste.csproj.AssemblyReference.cache
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\obj\Debug\Clinica.Teste.csproj.CoreCompileInputs.cache
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\obj\Debug\Clinica.Teste.csproj.CopyComplete
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\obj\Debug\Clinica.Teste.exe
+C:\Users\augus\Documents\GitHub\Clinia\Clinica\Clinica.Teste\obj\Debug\Clinica.Teste.pdb
