@@ -1,43 +1,83 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="UTF-8">
+    <title>CodePen - Sidebar template</title>
+    <link rel='stylesheet' href='~/Content/bootstrap.css'>
+    <link rel='stylesheet' href='~/Content/font-awesome.min.css'>
+    <link rel="stylesheet" href="~/Content/Site.css">
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
-        </footer>
-    </div>
+    <!-- partial:index.partial.html -->
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <div class="user-pic">
+                        <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg" alt="User picture">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-role">
+                            Jhon
+                            <strong>Smith</strong>
+                        </span>
+                        <span class="user-role">Administrator</span>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+                    </div>
+                </div>
+                <!-- sidebar-search  -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span>Menu</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#" onclick="OpenPartialView('/Cliente/Cliente')">
+                                <i class="fas fa-address-book"></i>
+                                <span style="font-size: medium;">Cliente</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#" onclick="OpenPartialView('/Usuarios/Usuarios')">
+                                <i class="fas fa-users-cog"></i>
+                                <span style="font-size: medium;">Usuarios</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#" onclick="OpenPartialView('/Perfil/Perfil')">
+                                <i class="fas fa-user-edit"></i>
+                                <span style="font-size: medium;">Perfil</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Usuarios/Sair">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span style="font-size: medium;">Sair</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container" id="containerPrincial">
+                @RenderBody()
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <!-- partial -->
+    <script src='~/Scripts/jquery-3.4.1.min.js'></script>
+    <script src='~/Scripts/bootstrap.js'></script>
+    <script src='~/Scripts/ktiIcon.js'></script>
+    <script src='~/Scripts/Script.js'></script>
+
 </body>
 </html>

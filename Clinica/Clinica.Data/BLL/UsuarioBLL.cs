@@ -70,7 +70,7 @@ namespace Clinica.Data.BLL
         public UsuarioModel Login(LoginModel model)
         {
             return   usuarioRepository.ListarAsync()
-                .Where(x => x.Login == model.Login && x.Senha == model.Senha)
+                .Where(x => x.Login == model.Login && x.Senha == model.Password)
                .Select(x => new UsuarioModel
                {
 
